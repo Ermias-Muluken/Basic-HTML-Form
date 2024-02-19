@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <header>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Student Form</title>
+  </header>
+  <body>
+    <main>
+      <div id="intro">
+        <h1>Programming Language Preference Form</h1>
+        <hr class="breakone" />
+        <p>
+          This is a basic form that collects students programming language
+          preferences for some kind of research.
+        </p>
+      </div>
+      <form action="ermiasmuluken01@gmail.com" method="post">
+        <fieldset>
+          <legend>Basic Information</legend>
+          <div class="user">
+            <label for="firstname"> First Name</label>
+            <input id="firstname" type="text" />
+          </div>
+          <div class="user">
+            <label for="lastname"> Last Name</label>
+            <input id="lastname" type="text" />
+          </div>
+          <div class="user">
+            <label for="email"> Email Address</label>
+            <input id="email" type="email" />
+          </div>
+          <div class="user">
+            <label for="status"> Status</label>
+            <select id="status">
+              <option value="student">Student</option>
+              <option value="teacher">Teacher</option>
+              <option value="guest">Guest</option>
+            </select>
+          </div>
+          <div id="language">
+            <p>Choose your favorite programming language:</p>
+            <label for="html"
+              ><input type="radio" id="html" name="language" value="html" />HTML</label>
+            <label for="css"
+              ><input type="radio" id="css" name="language" value="css"/>CSS</label>
+            <label for="javascript">
+              <input type="radio" id="javascript" name="language" value="javascript" />Javascript</label>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+  <footer>
+    <p>No copyright</p>
+    <p>Enjoy it.</p>
+  </footer>
+</html>

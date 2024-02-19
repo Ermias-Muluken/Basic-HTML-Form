@@ -1,0 +1,73 @@
+body{
+    font-size: large;
+    background-color: lightgoldenrodyellow;
+}
+main{
+    background-color: antiquewhite;
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-shadow: 1px 2px 2px lightseagreen;
+}
+.breakone{
+    margin: 30px 2%;
+    border-width: 0.5px;
+    border-color: darkmagenta;
+    padding:1px;
+    background-color: brown;
+}
+#intro{
+    text-align: center;
+    background-color: antiquewhite;
+}
+/* Form */
+form{
+    margin-top: 30px;
+    background-color: antiquewhite;
+    height: 400px;
+}
+fieldset{
+    border-radius: 3%;
+    border-color: lightsalmon;
+    border-style: outset;
+    text-align: center;
+    padding: 5%;
+}
+.user{
+    display: flex;
+}
+.user label{
+    padding-bottom: 20px;
+    width: 50%;
+}
+.user input,select{
+    background-color: rgb(184, 129, 137);
+    width: 50%;
+    height: 50%;
+}
+.user input{
+    border-color: antiquewhite;
+}
+.user select{
+    margin-right: 4px;
+    border-style: double;
+    border-color: darkred;
+}
+#language label{
+    font-size: medium;
+    color: darkcyan;
+    font-style: italic;
+    text-shadow:1px 2px 2px gray;
+}
+#language p{
+    font-size: 20px;
+}
+/* Footer */
+footer{
+    margin: 30px;
+    line-height: 5px;
+    text-align: center;
+}
