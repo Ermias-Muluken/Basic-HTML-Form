@@ -5,7 +5,7 @@ body{
 main{
     background-color: antiquewhite;
     width: 80%;
-    max-width: 600px;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -27,7 +27,8 @@ h1{
 form{
     margin-top: 30px;
     background-color: antiquewhite;
-    height: 400px;
+    min-height:auto;
+    height: 75%;
 }
 fieldset{
     border-radius: 3%;
@@ -65,9 +66,57 @@ fieldset{
 #language p{
     font-size: 20px;
 }
+.comment{
+    display: flex;
+    margin-top: 10px;
+}
+.comment label{
+    color: salmon;
+    margin-top: 90px;
+    vertical-align: center;
+    width: 40%;
+}
+textarea{
+    background-color: rgb(221, 192, 156);
+    color:black;
+    margin: 20px;
+    width: 60%;
+    height: 150px;
+    border-radius:10px;
+    border-color: lightblue;
+    border-style: outset;
+}
+textarea:focus{
+    background-color: lightgray ;
+}
+.date,.signup,.terms{
+    color:cadetblue;
+}
+.date{
+    display: flex;
+    margin-top: 10px;
+}
+.date label{
+    width: 40%;
+}
+.date input{
+    width:40%;
+    color:cadetblue;
+}
+.signup{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.terms{
+    margin-bottom: 5px;
+}
+input[type="button"]{
+    margin-top: 20px;
+    color:darkolivegreen
+}
 /* Footer */
 footer{
-    margin: 30px;
-    line-height: 5px;
+    margin-top: 50px;
+    line-height: 10px;
     text-align: center;
 }
